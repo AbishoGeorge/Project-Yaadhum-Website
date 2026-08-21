@@ -1,0 +1,53 @@
+# https://www.projectyaadhum.com/robots.txt
+
+# ---- Standard search crawlers ----
+User-agent: *
+Allow: /
+Disallow: /*?*
+
+# ---- OpenAI ----
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ---- Anthropic ----
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# ---- Perplexity ----
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---- Google generative AI (separate from Googlebot) ----
+User-agent: Google-Extended
+Allow: /
+
+# ---- Microsoft / Meta / Apple / Common Crawl ----
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ---- Documented history of ignoring robots.txt ----
+User-agent: Bytespider
+Disallow: /
+
+Sitemap: https://www.projectyaadhum.com/sitemap.xml
