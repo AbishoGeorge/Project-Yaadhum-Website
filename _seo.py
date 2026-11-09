@@ -181,7 +181,7 @@ def _people():
         "knowsAbout": ["Academic stream selection after Class 10",
                        "Education access in Tier 2 and Tier 3 India", "Student mentoring"],
         "knowsLanguage": ["en", "ta"],
-        "image": DOMAIN + "/assets/founding-abisho.jpg",
+        "image": DOMAIN + "/assets/founding-abisho.jpg?v=2",
         "url": DOMAIN + "/story.html",
     }
     return [komala, abisho]
